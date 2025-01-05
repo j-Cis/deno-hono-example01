@@ -1,46 +1,49 @@
 # deno-hono-example01
 
-> ## A. code editors
->
-> ### [![VSCodium][A1_img] **VSCodium**][A1_url]
->
-> to install:  `choco install vscodium`
->
-> ```shell
-> my-project> codium .
-> ```
->
-> ---
->
-> ### [![VSCodium - Insiders][A2_img] **VSCodium - Insiders**][A2_url]
->
-> to install:  `choco install vscodium-insiders`
->
-> ```shell
-> my-project> codium-insiders .
-> ```
->
-> ---
->
-> ### [![Visual Studio Code][A3_img] **Visual Studio Code**][A3_url]
->
-> to install:  `choco install vscode`
->
-> ```shell
-> my-project> code .
-> ```
->
-> ---
->
-> ### [![Visual Studio Code Insiders][A4_img] **Visual Studio Code Insiders**][A4_url]
->
-> to install:  `choco install vscode-insiders`
->
-> ```shell
-> my-project> code-insiders .
-> ```
->
-> ---
+## 1. Usage
+- **Dev Run** `deno task dev`
+
+## A. code editors
+
+### [![VSCodium][A1_img] **VSCodium**][A1_url]
+
+to install:  `choco install vscodium`
+
+```shell
+my-project> codium .
+```
+
+---
+
+### [![VSCodium - Insiders][A2_img] **VSCodium - Insiders**][A2_url]
+
+to install:  `choco install vscodium-insiders`
+
+```shell
+my-project> codium-insiders .
+```
+
+---
+
+### [![Visual Studio Code][A3_img] **Visual Studio Code**][A3_url]
+
+to install:  `choco install vscode`
+
+```shell
+my-project> code .
+```
+
+---
+
+### [![Visual Studio Code Insiders][A4_img] **Visual Studio Code Insiders**][A4_url]
+
+to install:  `choco install vscode-insiders`
+
+```shell
+my-project> code-insiders .
+```
+
+---
 
 ---
 

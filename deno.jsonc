@@ -1,15 +1,30 @@
 {
   "tasks": {
-    "dev": "deno run -A --watch deno/main.ts"
+    "dev": "deno run -A --watch=deno,dirs deno/serve.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1",
+    "std/assert": "jsr:@std/assert@^1.0.10",
+    "std/fs": "jsr:@std/fs@^1.0.8",
+    "std/path": "jsr:@std/path@^1.0.8",
+    "hono": "jsr:@hono/hono@^4.6.16",
     "$logic": "./deno/logic/mod.ts"
   },
-  "compilerOptions": {
+  "compilerOptions": {    
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
       "lib": [
-          "dom", // Because we're writing code targeting the browser.
-          "deno.window"
+        "ESNext",
+        "dom",
+        "dom.iterable",
+        "dom.asynciterable",
+        "deno.window",
+        "deno.ns",
+        "deno.worker",
+        "deno.unstable",
+        "scripthost",
+        "webworker",
+        "webworker.importscripts",
+        "webworker.iterable"
       ]
   }
 }
