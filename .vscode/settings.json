@@ -1,0 +1,44 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },    
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },    
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "deno.trace.server": "verbose",
+    "deno.codeLens.references": true,
+    "deno.codeLens.implementations": true,
+    "deno.codeLens.referencesAllFunctions": true,
+    "deno.codeLens.test": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraCode,  Fira Code, Consolas, 'Courier New', monospace",
+    "editor.codeLensFontFamily": "FiraCode,  Fira Code",
+    "editor.inlayHints.fontFamily": "FiraCode,  Fira Code",
+    "editor.inlineSuggest.fontFamily": "FiraCode,  Fira Code",
+    "debug.console.fontFamily": "FiraCode,  Fira Code",
+    "scm.inputFontFamily": "FiraCode,  Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode,  Fira Code",
+    "notebook.output.fontFamily": "FiraCode,  Fira Code",
+    "chat.editor.fontFamily": "FiraCode,  Fira Code",
+    "csv-edit.fontFamilyInTable": "sameAsCodeEditor",
+    "markdown.preview.fontFamily": "FiraCode,  Fira Code,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "material-icon-theme.folders.associations": {
+        "deno": "src",
+        "dirs": "base"
+    }
+}
