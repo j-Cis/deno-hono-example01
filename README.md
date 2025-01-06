@@ -1,9 +1,12 @@
-# deno-hono-example01
+# deno-hono-examples
 
 ## 1. Usage
-- **Dev Run** `deno task dev`
 
-## A. code editors
+| for run.. | name | description |
+| --- | --- | --- |
+| `deno task run_A1` | **example A1** | ... |
+
+## code editors
 
 ### [![VSCodium][A1_img] **VSCodium**][A1_url]
 
